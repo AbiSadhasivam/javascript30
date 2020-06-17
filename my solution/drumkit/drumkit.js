@@ -4,13 +4,11 @@
     let [ele, audioToPlay] = document.querySelectorAll(query);
     let selectedEle = document.getElementsByClassName('col-selected')[0];
     if (selectedEle) { 
-      selectedEle.classList.value = selectedEle.classList.value.replace('col-selected', '');
+      selectedEle.classList.remove('col-selected');
     }
     if (ele) {      
       audioToPlay.play();
-      ele.classList.value = ele.classList.value + ' col-selected';
+      ele.classList.add('col-selected');
     }
-    
-    
   }
   
