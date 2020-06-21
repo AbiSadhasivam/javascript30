@@ -26,18 +26,15 @@ body {
 .hour{
   border-bottom: 2px solid white;
   transform-origin: 0 0;
-  transform: rotate(-90deg);
   width: 60px;
 }
 .minute{
   border-bottom: 2px solid white;
   transform-origin: 0 0;
-  transform: rotate(-90deg);
   width: 95px;
 }
 .second{
   border-bottom: 1px solid red;
   transform-origin: 0 0;
-  transform: rotate(-90deg);
   width: 95px;
 }
