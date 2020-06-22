@@ -1,0 +1,54 @@
+<html>
+  <head>
+    
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./cssvariables.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+  </head>
+  <body class="w-100 h-100 ">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-lg my-2  d-flex align-items-center justify-content-center hdr font-weight-bolder">
+          Update CSS Variables with JS
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-sm d-flex align-items-center justify-content-around">
+          <span class="content-title" >Spacing</span>
+          <input class="controls" type="range" name="spacing" min="10" max="60" step="1"/>
+        </div>
+        <div class="col-sm d-flex align-items-center justify-content-around">
+          <span class="content-title">Blur</span>
+          <input class="controls" type="range" name="blur" min="0" max="1" step="0.1"/>
+
+        </div>
+        <div class="col-sm d-flex align-items-center justify-content-around">
+          <span class="content-title"> Color : </span>
+          <input class="controls" type="color" name="bg-color" >
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="bdy w-50 d-flex justify-content-center align-items-center">
+            Body
+        </div>
+      </div>
+
+    </div>
+  </body>
+  <script src="./cssvariables.js"></script>
+</html>
